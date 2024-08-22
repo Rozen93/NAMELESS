@@ -1,0 +1,18 @@
+.custom_icon {
+    z-index: 16;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(45deg, #fe802d 8%, #fe0840 50%, #ac0bd9 90%);
+    transition: all 0.3s ease;
+}
+
+

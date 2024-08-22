@@ -1,0 +1,121 @@
+
+#hero {
+    height: 58vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    background: linear-gradient(45deg, #001f3f 0%, #0074cc 50%, #495057 100%);
+}
+
+
+#hero .lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+    background-attachment: fixed;
+    background-position: 90% 50%;
+    opacity: 0.7;
+    background-image: url("https://www.cbwebsitedesign.co.uk/img/lines-bg.svg");
+}
+
+#hero .content {
+    position: relative;
+    z-index: 2;
+    font-family: 'Proxima Nova', sans-serif !important;
+
+}
+
+#hero .content {
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+.max_1100 {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.wave_bottom {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    height: 111px;
+    pointer-events: none;
+}
+.wave_bottom svg {
+    height: 111px;
+    width: 100%;
+}
+
+.wave_bottom svg path:first-child {
+    opacity: .15;
+}
+
+.wave_bottom svg path:nth-child(2) {
+    opacity: .3;
+}
+
+
+
+
+@media only screen and (min-width: 25em) {
+    /* small 400px */
+
+}
+
+@media only screen and (min-width: 38em) {
+    /* medium 608px */
+
+    #hero{
+        height: 68vh;
+    }
+
+}
+
+@media only screen and (min-width: 60em) {
+    /* large 960px*/
+
+    #hero{
+        height: 78vh;
+    }
+
+}
+
+
+@media only screen and (min-width: 75em){
+
+    #hero{
+        height: 88vh;
+    }
+
+   
+
+}
+
+@media only screen and (min-width: 90em) {
+
+    /* extra large 1440px */
+    
+
+}
+
+
+@media only screen and (min-width: 101em) {
+
+    /* extra large 1440px */
+    
+
+}
+
+
+
