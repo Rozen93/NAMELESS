@@ -63,7 +63,7 @@ function Home() {
       <GroupTiltCard />
 
       <ContainerRhino>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 place-content-center mt-12 pt-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 place-content-center mt-12 pt-3">
           <Super />
           <div>
             <RhinoHeading

@@ -10,7 +10,7 @@ function GroupTiltCard() {
 
 
     return (
-        <section>
+        <section style={{overflow:'hidden', padding:'0rem 0 1rem'}}>
             <div className="grid grid-cols-4 gap-x-0">
                 <TiltCard source='/gibraltar.webp' />
                 <TiltCard source='/jets.webp' />
