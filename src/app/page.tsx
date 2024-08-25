@@ -83,6 +83,7 @@ function Home() {
               sunt veritatis commodi, voluptates eaque, quos illum rem
               voluptatibus at nemo quia? Facere recusandae quas esse neque
               commodi?
+              With data-driven marketing, we’ll help you put your best foot forward, find who and where your target market is, and turn your leads to customers.
             </RhinoText>
           </div>
         </div>
