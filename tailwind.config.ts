@@ -14,11 +14,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       backgroundColor: {
-        primary: "#1E3A8A", // Azul oscuro
+        primary: "#f6f6f6", // Azul oscuro
         secondary: "#F43F5E", // Rojo rosado
-        accent: "#10B981", // Verde esmeralda
-        neutral: "#F5F5F5", // Gris claro
-        dark: "#111827", // Gris muy oscuro
       },
       fontFamily: {
         nova: ["var(--font-nova)"],

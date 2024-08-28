@@ -51,7 +51,7 @@ function Home() {
         </div>
       </ContainerRhino>
 
-      <ContainerRhino isFull>
+      <ContainerRhino isFull isReal>
         <RhinoHeading
           subHeading="MIRA LO QUE TE OFRECEMOS"
           heading="ULTIMOS PROYECTOS"
