@@ -51,16 +51,17 @@ function Home() {
         </div>
       </ContainerRhino>
 
-      <ContainerRhino isNormal>
+      <ContainerRhino isFullWidth>
         <RhinoHeading
           subHeading="MIRA LO QUE TE OFRECEMOS"
           heading="ULTIMOS PROYECTOS"
           subClass="text-center"
           headClass="text-center"
         />
+        <GroupTiltCard />
       </ContainerRhino>
 
-      <GroupTiltCard />
+      
 
       <ContainerRhino>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 place-content-center mt-12 pt-3">
