@@ -1,25 +1,47 @@
 "use client"
 
 import { useState } from "react";
+import styles from './Tabs.module.css';  // Importar el CSS como módulo
 
 function Tabs() {
   const [toggleState, setToggleState] = useState(1);
 
-  function toggleTab(index) {
-    setToggleState(index)
+  function toggleTab(index: number) {
+    setToggleState(index);
   }
 
   return (
-    <div className="container">
-      <div className="block-tabs">
-        <div className="tabs active-tabs" onClick={() => toggleTab(1)}>primer</div>
-        <div className="tabs">segundo</div>
-        <div className="tabs">tercero</div>
+    <div className={styles.container}>
+      <div className={styles.blockTabs}>
+        <div
+          className={toggleState === 1 ? `${styles.tabs} ${styles.activeTabs}` : styles.tabs}
+          onClick={() => toggleTab(1)}
+        >
+          primer
+        </div>
+        <div
+          className={toggleState === 2 ? `${styles.tabs} ${styles.activeTabs}` : styles.tabs}
+          onClick={() => toggleTab(2)}
+        >
+          segundo
+        </div>
+        <div
+          className={toggleState === 3 ? `${styles.tabs} ${styles.activeTabs}` : styles.tabs}
+          onClick={() => toggleTab(3)}
+        >
+          tercero
+        </div>
       </div>
-      <div className="content-tabs">
-        <div className="content active-content">a</div>
-        <div className="content">b</div>
-        <div className="content">c</div>
+      <div className={styles.contentTabs}>
+        <div className={toggleState === 1 ? `${styles.content} ${styles.activeContent}` : styles.content}>
+          a
+        </div>
+        <div className={toggleState === 2 ? `${styles.content} ${styles.activeContent}` : styles.content}>
+          b
+        </div>
+        <div className={toggleState === 3 ? `${styles.content} ${styles.activeContent}` : styles.content}>
+          c
+        </div>
       </div>
     </div>
   );
