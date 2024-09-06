@@ -8,6 +8,7 @@ import Quad from "@/components/quad_images/Quad";
 import TiltCard from "@/components/02_tilt_card/TiltCardTwo";
 import GroupTiltCard from "@/components/01_tilt_card/GroupTiltCard";
 import Super from "@/components/super/Super";
+import Tabs from "@/components/tabs/Tabs";
 
 function Home() {
   return (
@@ -90,6 +91,7 @@ function Home() {
           </div>
         </div>
       </ContainerRhino>
+      <Tabs />
 
       
 
