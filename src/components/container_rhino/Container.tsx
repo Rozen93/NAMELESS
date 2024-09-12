@@ -17,7 +17,10 @@ function ContainerRhino({
     <section
       className={`${isNormal ? "p-3 lg:p-4 mt-14" : "pt-3 lg:pt-4 mt-14"} ${
         isFull
-          ? "bg-primary py-3 px-0 lg:pt-4 lg:pb-[6rem] lg:px-0 mt-14 relative"
+          ? "py-3 px-0 lg:pt-4 lg:pb-[6rem] lg:px-0 mt-14 relative"
+          : "pt-3 lg:pt-4 mt-14"
+      } ${isReal
+         ? "bg-primary py-3 px-0 lg:pt-4 lg:pb-[6rem] lg:px-0 mt-14 relative"
           : "pt-3 lg:pt-4 mt-14"
       }`}
     >

@@ -53,7 +53,7 @@ function Home() {
         </div>
       </ContainerRhino>
 
-      <ContainerRhino isFull isReal>
+      <ContainerRhino isReal>
         <RhinoHeading
           subHeading="MIRA LO QUE TE OFRECEMOS"
           heading="ULTIMOS PROYECTOS"
@@ -62,8 +62,6 @@ function Home() {
         />
         <GroupTiltCard />
       </ContainerRhino>
-
-      
 
       <ContainerRhino>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 place-content-center mt-12 pt-3">
@@ -85,15 +83,14 @@ function Home() {
               vitae. Necessitatibus quisquam cumque accusantium quibusdam optio
               sunt veritatis commodi, voluptates eaque, quos illum rem
               voluptatibus at nemo quia? Facere recusandae quas esse neque
-              commodi?
-              otra vez rama2
+              commodi? otra vez rama2
             </RhinoText>
           </div>
         </div>
       </ContainerRhino>
-      <Tabs />
-
-      
+      <ContainerRhino isReal>
+        <Tabs />
+      </ContainerRhino>
 
       <div className="h-[100vh]"></div>
     </>
